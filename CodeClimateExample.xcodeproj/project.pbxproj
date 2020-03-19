@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2B1AF59E222D547200FB25CB /* ForecastModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1AF59D222D547200FB25CB /* ForecastModel.swift */; };
+		2B24956D223685A800928F23 /* ShowResultsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B24956C223685A800928F23 /* ShowResultsTableViewCell.swift */; };
 		2B546731222D4B76004E9C76 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B546730222D4B76004E9C76 /* AppDelegate.swift */; };
 		2B546733222D4B76004E9C76 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B546732222D4B76004E9C76 /* ViewController.swift */; };
 		2B546736222D4B76004E9C76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B546734222D4B76004E9C76 /* Main.storyboard */; };
@@ -36,6 +37,7 @@
 
 /* Begin PBXFileReference section */
 		2B1AF59D222D547200FB25CB /* ForecastModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastModel.swift; sourceTree = "<group>"; };
+		2B24956C223685A800928F23 /* ShowResultsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowResultsTableViewCell.swift; sourceTree = "<group>"; };
 		2B54672D222D4B76004E9C76 /* CodeClimateExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeClimateExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B546730222D4B76004E9C76 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2B546732222D4B76004E9C76 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -84,6 +86,14 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		2B24956B2236857000928F23 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				2B24956C223685A800928F23 /* ShowResultsTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		2B546724222D4B76004E9C76 = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +117,7 @@
 		2B54672F222D4B76004E9C76 /* CodeClimateExample */ = {
 			isa = PBXGroup;
 			children = (
+				2B24956B2236857000928F23 /* Cells */,
 				2B1AF59C222D53C900FB25CB /* Models */,
 				2B546730222D4B76004E9C76 /* AppDelegate.swift */,
 				2B546732222D4B76004E9C76 /* ViewController.swift */,
@@ -268,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B546733222D4B76004E9C76 /* ViewController.swift in Sources */,
+				2B24956D223685A800928F23 /* ShowResultsTableViewCell.swift in Sources */,
 				2B1AF59E222D547200FB25CB /* ForecastModel.swift in Sources */,
 				2B546731222D4B76004E9C76 /* AppDelegate.swift in Sources */,
 			);
